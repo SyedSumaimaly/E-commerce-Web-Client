@@ -1,6 +1,5 @@
 import React from 'react'
 import { Card } from 'flowbite-react';
-import MyCard from './MyCard';
 import Nav from '../layout/Nav';
 
 

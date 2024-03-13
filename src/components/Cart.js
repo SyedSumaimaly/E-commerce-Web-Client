@@ -1,6 +1,6 @@
 import React from 'react'
 
-function MyCard() {
+function Cart() {
   return (
     <div>
            <div className=" bg-gray-100 pt-10 pb-10">
@@ -137,4 +137,4 @@ function MyCard() {
   )
 }
 
-export default MyCard
+export default Cart

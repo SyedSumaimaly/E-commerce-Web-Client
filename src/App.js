@@ -9,6 +9,9 @@ import Nav from './layout/Nav';
 import Categories from './components/Categories';
 import Copyright from './layout/Copyright';
 import Category from './components/Category';
+import Cart from './components/Cart';
+import Payment from './components/Payment';
+import ProductDetail from './components/ProductDetail';
 function App() {
   return (
     <>
@@ -17,6 +20,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Categories />} />
           <Route path="/category" element={<Category />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/payment" element={<Payment />} />
+          <Route path="/product-detail" element={<ProductDetail />} />
 
         </Routes>
       </BrowserRouter>

@@ -8,8 +8,7 @@ function Productcard() {
   const navigate = useNavigate();
 
   const Buy = () => {
-    // "MyCard" page par navigate karein
-    navigate('/MyCard');
+    navigate('/product-detail');
   };
 
   return (
