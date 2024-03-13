@@ -8,7 +8,7 @@ import {
 import Nav from './layout/Nav';
 import Categories from './components/Categories';
 import Copyright from './layout/Copyright';
-import MyCard from './components/MyCard';
+import Category from './components/Category';
 function App() {
   return (
     <>
@@ -16,6 +16,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Categories />} />
+          <Route path="/category" element={<Category />} />
+
         </Routes>
       </BrowserRouter>
       <Copyright/>
