@@ -10,9 +10,7 @@ import Categories from './components/Categories';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <FlowbiteCard /> */}
-    {/* <Section2 /> */}
-    <Categories />
+   <App />
   </React.StrictMode>
 );
 
