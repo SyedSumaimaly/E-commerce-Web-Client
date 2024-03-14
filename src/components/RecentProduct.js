@@ -4,7 +4,7 @@ import React from 'react'
 import Productcard from './product_card';
 
 
-function MyNewCard() {
+function RecentProduct() {
   return (
     <div className=' mt-8 p-2'>
       <h1 className='text-black text-4xl font-semibold'>Recent Product</h1>
@@ -64,4 +64,4 @@ function MyNewCard() {
   )
 }
 
-export default MyNewCard
+export default RecentProduct

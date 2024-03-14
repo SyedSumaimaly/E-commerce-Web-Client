@@ -6,7 +6,7 @@ import {
   Route
 } from "react-router-dom";
 import Nav from './layout/Nav';
-import Categories from './components/Categories';
+import Home from './components/Home';
 import Copyright from './layout/Copyright';
 import Category from './components/Category';
 import Cart from './components/Cart';
@@ -18,7 +18,7 @@ function App() {
       <Nav />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Categories />} />
+          <Route path="/" element={<Home />} />
           <Route path="/category" element={<Category />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/payment" element={<Payment />} />
